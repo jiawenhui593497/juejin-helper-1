@@ -2,8 +2,8 @@ name: Growth
 
 on:
   schedule:
-    # UTC 时间 9 点运行一次
-    - cron: '0 9 * * *'
+    # 北京 时间 9 点运行一次
+    - cron: '0 1 * * *'
   workflow_dispatch:
 
 jobs:
