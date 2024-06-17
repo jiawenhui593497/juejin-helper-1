@@ -3,7 +3,7 @@ name: Growth
 on:
   schedule:
     # 北京 时间 9 点运行一次
-    - cron: '0 1 * * *'
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
